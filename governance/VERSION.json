@@ -1,0 +1,19 @@
+{
+  "bundle_schema": 1,
+  "standards_version": "1.3.0",
+  "source_repository": "wbg74dbzdc-pixel/ai-agent-standards",
+  "source_revision": "98b6475e8913b7918f3a472459d4fa2253027f77",
+  "generated_at": "2026-09-09",
+  "published_path": "governance/ai-agent-standards",
+  "included_source_files": 55,
+  "excluded_source_paths": [
+    ".gitignore",
+    "skills/ai-council/** (published separately at repository root)"
+  ],
+  "transformations": [
+    "Generalized owner-specific personal names",
+    "Adapted private/public distribution notices",
+    "Adapted project template to the public snapshot path"
+  ],
+  "canonical_source_is_private": true
+}

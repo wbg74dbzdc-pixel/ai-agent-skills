@@ -1,0 +1,6 @@
+---
+description: Canonical repository agent standards
+alwaysApply: true
+---
+
+Read and follow `/AGENTS.md` before material work. Apply the task-readiness gate, inspect current state, preserve source-of-truth history, minimize authority and scope, test changes, and never claim facts or completion without evidence.
