@@ -2,10 +2,12 @@
 
 This is a public repository. Never add credentials, private repository content, personal information, proprietary project material, or confidential conversation history.
 
+This repository adopts the bundled [AI Agent Standards v1.3.0](governance/ai-agent-standards/AGENTS.md). Read the universal constitution and relevant modules before applying these repository-specific instructions. The [version manifest](governance/VERSION.json) identifies the private canonical source revision.
+
 Before changing anything:
 
 1. Confirm the requested end state, constraints, and success criteria. Ask focused questions only when a missing answer would materially change the result.
-2. Inspect the relevant skill and catalog entry. Search for duplicates, contradictions, and guidance made obsolete by newer information.
+2. Inspect the relevant skill, catalog entry, and governance material. Search for duplicates, contradictions, and guidance made obsolete by newer information.
 3. Prefer a narrow update to accumulating universal rules from one example or failure.
 
 For every change:
@@ -18,5 +20,4 @@ For every change:
 - Cite and license third-party material. Do not copy prompts or skills without permission.
 - Validate changed `SKILL.md` frontmatter and links, then record meaningful compatibility limitations.
 
-The private governance repository may contain additional owner-specific policies, but this public repository must remain usable without access to it.
-
+The public governance snapshot is generated from the private canonical repository. Do not edit generated snapshot files independently. If the manifest is known to be stale, report that limitation and refresh from the canonical source before claiming current compliance.
