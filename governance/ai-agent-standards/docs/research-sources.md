@@ -10,6 +10,7 @@ Primary references used to shape the standards and checklists. Recheck versions 
 - OpenAI, [Using PLANS.md for multi-hour tasks](https://developers.openai.com/cookbook/articles/codex_exec_plans)
 - Anthropic, [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 - Anthropic, [Claude Code memory and instruction files](https://code.claude.com/docs/en/memory)
+- Anthropic, [Claude Code best practices](https://code.claude.com/docs/en/best-practices), [commands](https://code.claude.com/docs/en/commands), and [extension/context guide](https://code.claude.com/docs/en/features-overview)
 - Google, [Gemini CLI hierarchical context files](https://google-gemini.github.io/gemini-cli/docs/cli/gemini-md.html)
 - AGENTS.md community project, [Open format](https://agents.md/)
 
