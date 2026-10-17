@@ -1,6 +1,6 @@
 # Rights and License Inventory
 
-Use this project record to show what the project may use, distribute, modify, and monetize. It is evidence tracking, not a legal opinion or guarantee of ownership. Keep private contracts in approved private storage; link to restricted evidence rather than publishing confidential agreements in a public repository.
+Use this project record to show what the project may use, distribute, modify, and monetize. It is evidence tracking, not a legal opinion or guarantee of ownership. If the project owner is meant to own newly commissioned work, record the transfer/assignment evidence; treat contributor-retained work as licensed, not owned. Keep private contracts in approved private storage; link to restricted evidence rather than publishing confidential agreements in a public repository.
 
 ## Project facts
 
