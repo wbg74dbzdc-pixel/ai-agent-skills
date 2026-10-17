@@ -110,7 +110,7 @@ Before public or production release, explicitly assess applicable privacy, data,
 
 For created or commissioned products, verify the rights chain for project materials and contributors, review relevant licenses and platform/user-content terms, and record evidence in the rights inventory. Legal text and checklists are not guarantees of ownership, compliance, protection from copying, or immunity from claims. Research the relevant jurisdiction and product facts, cite support, and flag uncertainty for qualified human review. See `rules/release-compliance.md` and `playbooks/website-compliance.md`.
 
-For clients that need shared standards or project context, verify the connection and use the fallback process in `docs/ai-client-access.md`. For software and digital product releases, route through `checklists/README.md`; complete the software security baseline, applicable product checklist, and product release/legal review. For websites, also complete `playbooks/website-launch.md`. For products with regulated or sensitive features, complete `templates/compliance-matrix.md` before release.
+For software and digital product releases, route through `checklists/README.md`; complete the software security baseline, applicable product checklist, and product release/legal review. For websites, also complete `playbooks/website-launch.md`. For products with regulated or sensitive features, complete `templates/compliance-matrix.md` before release.
 
 ## 10. Communicate and finish honestly
 
