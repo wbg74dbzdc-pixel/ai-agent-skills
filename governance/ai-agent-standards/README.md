@@ -53,4 +53,4 @@ A link alone is insufficient because an agent may not have cross-repository acce
 
 For consequential decisions, the optional AI Council in `skills/ai-council/` and `playbooks/ai-council.md` provides structured independent review without replacing factual verification or the user's authority.
 
-This repository remains private until The user explicitly approves publication.
+This standards snapshot is published for general reuse. Its canonical source repository remains private.
