@@ -1,6 +1,6 @@
 # Project Agent Instructions
 
-This project adopts the public standards snapshot at `wbg74dbzdc-pixel/ai-agent-skills/governance/ai-agent-standards` at revision: `PIN_PUBLIC_SNAPSHOT_REVISION_HERE`.
+This project adopts the public standards snapshot at `governance/ai-agent-standards/` at revision: `PIN_PUBLIC_SNAPSHOT_REVISION_HERE`.
 
 Read the adopted universal constitution, then these project-specific rules. Project rules control within their scope but cannot silently weaken honesty, evidence, safety, privacy, preservation, or owner authority.
 
