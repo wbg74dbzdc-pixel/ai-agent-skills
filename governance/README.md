@@ -1,28 +1,26 @@
 # Public AI Agent Standards
 
-This directory makes the complete active AI Agent Standards available to models that cannot access the private canonical repository.
+This directory contains the canonical public AI Agent Standards. Skills are maintained separately under `skills/<skill-name>/`.
 
-## How agents should use it
+## How agents should use the standards
 
 1. Read [the universal constitution](ai-agent-standards/AGENTS.md).
-2. Read only the rules and playbooks relevant to the current task.
-3. Use the templates and evaluation material when their triggering workflow applies.
-4. Then load any relevant reusable skill from the repository's [skill catalog](../CATALOG.md).
+2. Read only rules relevant to the current task.
+3. Use [the checklist router](ai-agent-standards/checklists/README.md) for software security, product type, accessibility, legal issue-spotting, and release readiness.
+4. Use relevant playbooks, templates, and evaluation material when their workflow applies.
+5. Then load any relevant reusable skill from the repository's [skill catalog](../CATALOG.md).
 
-Do not treat skill instructions as a replacement for the universal standards. Project-specific instructions may add stricter requirements but may not silently weaken honesty, evidence, safety, privacy, preservation, or user authority.
+Do not treat a skill or checklist as a replacement for the universal standards. Project-specific instructions may add stricter requirements but may not silently weaken honesty, evidence, safety, privacy, preservation, or user authority.
 
 ## Provenance
 
-- Public standards version: **1.3.0**
-- The private `ai-agent-standards` repository remains the canonical source and history.
-- The historical source revision is recorded in [VERSION.json](VERSION.json).
-- Public standards live under `governance/ai-agent-standards/`; independently installable skills live under `skills/<skill-name>/`.
+- Current public standards version: **1.4.0**
+- The standards and skills are maintained in this public repository; this repository is their source of truth.
+- `VERSION.json` records the historical seed revision imported from the former private standards repository and the public snapshot transformations.
+- Standards live under `ai-agent-standards/`; independently installable skills live under `../../skills/<skill-name>/`.
 
-## Privacy and synchronization rule
+## Privacy and change control
 
-The public bundle uses role-based terms such as `the project owner` and generic repository placeholders. Do not publish legal names, personal contact details, private paths, credentials, private project information, or account identifiers. Review the complete changed tree before each public update.
+Keep the public tree free of legal names, personal contact details, private paths, credentials, private project information, and account identifiers. Review the complete changed tree before each public update. GitHub account, commit, pull-request, and repository metadata are outside the control of document sanitization.
 
-
-The private canonical repository remains the source of truth. Whenever it changes, a maintainer must regenerate this snapshot, run privacy and secret checks, compare the complete source file list, update `VERSION.json`, and update the public version shown here and in the root README. Generated snapshot files should not be edited independently.
-
-If a known canonical revision is newer than the manifest, report the public snapshot as stale rather than guessing at missing rules.
+When standards change, update this repository's changelog and version manifest in the same change, review the full diff, run privacy/secret checks, validate internal links and checklist routing, and record the evidence. Do not treat a historical source revision as a live dependency.
