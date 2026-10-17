@@ -1,21 +1,12 @@
-# Handoff
+# Compact Handoff
 
-## Requested outcome
+Keep this replace-in-place note concise (about 250 words where practical). Store detailed evidence in project records or logs and link only what the next task needs. Include unknowns; never turn attempted work into verified state.
 
-## Completed and verified
-
-## Completed but not fully verified
-
-## Attempted but failed
-
-## Not attempted
-
-## Files and external artifacts changed
-
-## Tests, inspections, and results
-
-## Decisions, assumptions, and unknowns
-
-## Risks and rollback
-
-## Exact next steps
+- **Task / current outcome:**
+- **Source of truth and version / commit:**
+- **Verified progress and evidence:**
+- **Relevant paths / changed files:**
+- **Decisions and constraints:**
+- **Checks run and results:**
+- **Blockers / unknowns:**
+- **Exact next action:**
