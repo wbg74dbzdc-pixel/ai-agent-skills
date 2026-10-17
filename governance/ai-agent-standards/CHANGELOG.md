@@ -4,7 +4,6 @@
 
 - Added a cost-aware, context-minimal agent workflow, bounded task brief, and compact replace-in-place handoff.
 - Added a Claude Code efficiency audit skill with measurement-first guidance for context, scripts, skills, hooks, and subagents.
-- Documented public standards access, private Hub access, offline snapshots, ChatGPT GitHub read-only limits, and live MCP availability dependencies.
 - Routed task execution and client access through the updated constitution.
 
 
