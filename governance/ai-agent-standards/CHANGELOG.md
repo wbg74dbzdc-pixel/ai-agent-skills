@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.2 - 2026-10-16
+
+- Added project ownership and chain-of-title checks for commissioned, contributed, third-party, and AI-assisted work.
+- Added a reusable rights and license inventory and routed it through product-release and game launch checks.
+- Added explicit review of EULA, publisher/store, mod, workshop, and user-content grants; clarified that checklists cannot guarantee immunity from copying or legal claims.
+- Corrected the embedded constitution version to match the public standards manifest.
+
 ## 1.4.1 - 2026-10-16
 
 - Routed the universal release constitution directly to the new product checklist index so adopted standards expose the security and release gates without relying on the repository README.
