@@ -1,5 +1,7 @@
 # Website Launch Playbook
 
+Use the [product checklist router](../checklists/README.md) and complete the [software security checklist](../checklists/software-security.md) before release. For an API/backend, mobile/desktop app, game, or AI feature, add its corresponding checklist as well.
+
 Complete each applicable item in the deployed production-like environment. Record `pass`, `fail`, `blocked`, or `not applicable`, with evidence and an owner. This checklist does not guarantee legal compliance.
 
 ## Legal, privacy, and trust

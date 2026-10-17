@@ -1,15 +1,15 @@
 # AI Agent Standards
 
-Canonical, cross-project operating standards for AI agents working on the user's projects and deliverables.
+Canonical, cross-project operating standards for AI agents working on projects and deliverables.
 
-The goal is not a larger prompt. It is a reliable operating system: a short mandatory constitution, scoped rules, repeatable playbooks, reusable templates, deterministic enforcement, and regression cases for known AI failure modes.
+The goal is not a larger prompt. It is a reliable operating system: a short mandatory constitution, scoped rules, repeatable playbooks and checklists, reusable templates, deterministic enforcement, and regression cases for known AI failure modes.
 
 ## Start here
 
 1. Read `AGENTS.md`.
 2. Read the adopting project's instructions and source-of-truth documents.
 3. Establish the task contract in `rules/task-readiness.md`.
-4. Load only the rules and playbook relevant to the task.
+4. Load only the rules, playbooks, and checklists relevant to the task.
 5. Verify the result and complete a clean handoff.
 
 ## Repository map
@@ -20,7 +20,8 @@ The goal is not a larger prompt. It is a reliable operating system: a short mand
 | `GOVERNANCE.md` | Ownership, changes, exceptions, and versioning |
 | `rules/` | Detailed requirements by concern |
 | `playbooks/` | Task-specific operating procedures |
-| `skills/` | Portable reusable agent skills that implement approved procedures |
+| `checklists/` | Routed, evidence-based product, security, and release checks |
+| Repository-root `skills/` | Portable reusable agent skills that implement approved procedures |
 | `templates/` | Cross-agent and project bootstrap files |
 | `evals/` | Compliance rubrics and regression cases |
 | `docs/research-sources.md` | Primary sources behind the standard |
@@ -51,6 +52,6 @@ A link alone is insufficient because an agent may not have cross-repository acce
 - Never confuse AI consensus with proof.
 - Never claim completion without evidence.
 
-For consequential decisions, the optional AI Council in `skills/ai-council/` and `playbooks/ai-council.md` provides structured independent review without replacing factual verification or the user's authority.
+For consequential decisions, the optional AI Council in [`skills/ai-council/SKILL.md`](../../skills/ai-council/SKILL.md) and `playbooks/ai-council.md` provides structured independent review without replacing factual verification or the user's authority.
 
-This standards snapshot is published for general reuse. Its canonical source repository remains private.
+This public repository is the canonical source of the standards. Use the [checklist router](checklists/README.md) to select applicable software, product, and release checks without loading every checklist for every task.

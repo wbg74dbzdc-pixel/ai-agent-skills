@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.0 - 2026-10-16
+
+- Made the public skills repository the canonical source after the former private source repository was deleted.
+- Added a routed, evidence-based product checklist system so agents load only checks relevant to the software and release.
+- Added baseline software security, API/service, mobile/desktop, game, AI-enabled product, and cross-product release/legal checklists.
+- Added authoritative security, accessibility, platform, and regulator references; require agents to verify current versions and applicable jurisdictions.
+- Clarified that checklist completion is not proof of legal compliance, certification, or exhaustive coverage.
+
 ## 1.3.0 - 2026-09-07
 
 - Added a vendor-neutral AI Council playbook inspired by Andrej Karpathy's LLM Council and Ole Lehmann's Claude Council adaptation.
@@ -31,7 +39,7 @@
 
 - Established the task-readiness gate and explicit task contract.
 - Added the anti-confident-wrongness protocol and evidence labels.
-- Added authority, context, tooling, automation, observability, file, Git, security, privacy, release, and communication rules.
+- Added authority, context, tooling, automation, observability, file, Git, security, privacy, release, and communication playbooks.
 - Added long-task continuity and multi-agent coordination standards.
 - Added development, diagnosis, research, documentation, compliance, and recovery playbooks.
 - Added cross-agent adapters, plans, decisions, briefs, and handoff templates.

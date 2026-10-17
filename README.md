@@ -4,13 +4,14 @@ Portable, vendor-neutral skills and public AI-agent operating standards for Clau
 
 ## Start here
 
-A web-enabled agent can use this single public repository for both governance and reusable skills:
+A web-enabled agent can use this single public repository for governance and reusable skills:
 
 1. Read the [public AI Agent Standards](governance/README.md), beginning with the [universal constitution](governance/ai-agent-standards/AGENTS.md).
 2. Load only the standards modules relevant to the current task.
-3. Load any relevant reusable skill from the catalog below.
+3. For software or a release, use the [checklist router](governance/ai-agent-standards/checklists/README.md) to select applicable product, security, accessibility, and legal checklists.
+4. Load any relevant reusable skill from the catalog below.
 
-The standards bundle and reusable skills are maintained together here, in separate directories. The [version manifest](governance/VERSION.json) records standards provenance and transformations.
+Standards and reusable skills are maintained together here, in separate directories. The [version manifest](governance/VERSION.json) records the original seed revision and publication history.
 
 Each skill lives in `skills/<skill-name>/` and uses `SKILL.md` as its entry point. Agents should load only the skill that matches the current task, then read linked references only when needed.
 

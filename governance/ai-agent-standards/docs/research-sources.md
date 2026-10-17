@@ -1,6 +1,6 @@
 # Research Sources
 
-Primary references used to shape v1.0. Links should be rechecked when the standard is revised because product documentation and risk guidance change.
+Primary references used to shape the standards and checklists. Recheck versions and links when revising guidance because laws, standards, platform requirements, and threat guidance change.
 
 ## Agent instructions and context
 
@@ -23,25 +23,25 @@ Primary references used to shape v1.0. Links should be rechecked when the standa
 - GitHub, [Customizing Copilot code review](https://docs.github.com/en/copilot/tutorials/customize-code-review)
 - GitHub, [Copilot CLI best practices](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-best-practices)
 
-## Council-based decision review
+## Security engineering
 
-- Andrej Karpathy, [LLM Council](https://github.com/karpathy/llm-council) — original multi-model proposal with independent responses, peer ranking, and chairman synthesis.
-- Ole Lehmann, [Claude Council introduction](https://www.instagram.com/reel/DY12640ofTV/) — Claude-oriented adaptation using five advisor perspectives.
-- Apple Machine Learning Research, [Correlated Errors in Large Language Model Evaluation Panels](https://machinelearning.apple.com/research/correlated-llm-evaluation-panels) — evidence that panel size can overstate effective independence when model errors are correlated.
-- Li et al., [Multi-Agent Debate: A Systematic Survey and Empirical Evaluation](https://arxiv.org/abs/2505.22960) — empirical limitations and conditional benefits of multi-agent debate.
-
-The AI Council protocol in this repository is an original vendor-neutral implementation informed by these sources. Attribution does not imply endorsement, and the procedure does not copy an external skill verbatim.
-
-## Governance and security
-
-- NIST, [AI Risk Management Framework Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/)
-- OWASP, [Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
-- NIST, [Secure Software Development Framework](https://csrc.nist.gov/pubs/sp/800/218/final)
+- NIST, [Secure Software Development Framework (SSDF), SP 800-218](https://csrc.nist.gov/pubs/sp/800/218/final)
+- OWASP, [Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/)
+- OWASP, [Top 10:2025](https://owasp.org/Top10/2025/)
+- OWASP, [API Security Top 10](https://owasp.org/www-project-api-security/)
+- OWASP, [Mobile Application Security Verification Standard (MASVS)](https://mas.owasp.org/MASVS/)
+- OWASP, [GenAI Security Project](https://genai.owasp.org/)
+- NIST, [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - NIST, [Software Bill of Materials guidance](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-supply-chain-security-guidance-20)
-- European Union, [Regulation (EU) 2024/1689—the AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
-- U.S. Federal Trade Commission, [Advertising guidance for businesses](https://www.ftc.gov/business-guidance/resources)
-- U.S. Federal Trade Commission, [Endorsement Guides questions and answers](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking)
-- U.S. Federal Trade Commission, [Consumer Reviews and Testimonials Rule questions and answers](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers)
-- W3C, [Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/)
 
-These sources inform the rules but do not replace current laws, platform requirements, project evidence, or qualified professional advice.
+## Accessibility, platform, and legal issue-spotting
+
+- W3C, [Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/) — normative web standard; select the applicable conformance level and verify the full criteria.
+- Microsoft, [Xbox Accessibility Guidelines](https://learn.microsoft.com/en-us/xbox/accessibility/guidelines) — game best practices, not a legal conformance checklist.
+- Apple, [App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+- Steamworks, [Review Process](https://partner.steamgames.com/doc/store/review_process) and [Content Survey](https://partner.steamgames.com/doc/gettingstarted/contentsurvey)
+- U.S. Federal Trade Commission, [Children's Privacy guidance](https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy)
+- U.S. Federal Trade Commission, [Reviews, endorsements, and influencers guidance](https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews)
+- European Union, [Regulation (EU) 2024/1689—the AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
+
+These references are starting points, not proof of compliance or endorsement. Determine what applies to the actual product and jurisdictions, use current authoritative sources, and seek qualified professional advice for unresolved high-impact legal questions.
