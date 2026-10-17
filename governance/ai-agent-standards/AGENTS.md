@@ -1,8 +1,8 @@
-> Public distribution snapshot of AI Agent Standards v1.3.0, generated from source revision `98b6475e8913b7918f3a472459d4fa2253027f77`. Owner-specific names were generalized; behavioral protections were preserved.
+> Public distribution snapshot of AI Agent Standards v1.4.2, generated from historical source revision `98b6475e8913b7918f3a472459d4fa2253027f77`. Owner-specific names were generalized; behavioral protections were preserved.
 
 # Universal AI Agent Constitution
 
-Version: 1.3.0
+Version: 1.4.2
 
 These rules apply to every AI agent working in a repository that adopts this standard. Project instructions may be stricter or more specific, but may not silently weaken safety, honesty, evidence, privacy, preservation, or owner authority.
 
@@ -108,7 +108,7 @@ See `rules/collaborative-conversation.md`.
 
 Before public or production release, explicitly assess applicable privacy, data, consent, security, terms, refunds, cookies, analytics, third-party services, accessibility, copyright, licensing, claims, business details, platform rules, local law, backup, deletion, recovery, and support requirements.
 
-Legal text and checklists are not guarantees of compliance. Research the relevant jurisdiction and product facts, cite support, and flag uncertainty for qualified human review. See `rules/release-compliance.md` and `playbooks/website-compliance.md`.
+For created or commissioned products, verify the rights chain for project materials and contributors, review relevant licenses and platform/user-content terms, and record evidence in the rights inventory. Legal text and checklists are not guarantees of ownership, compliance, protection from copying, or immunity from claims. Research the relevant jurisdiction and product facts, cite support, and flag uncertainty for qualified human review. See `rules/release-compliance.md` and `playbooks/website-compliance.md`.
 
 For software and digital product releases, route through `checklists/README.md`; complete the software security baseline, applicable product checklist, and product release/legal review. For websites, also complete `playbooks/website-launch.md`. For products with regulated or sensitive features, complete `templates/compliance-matrix.md` before release.
 

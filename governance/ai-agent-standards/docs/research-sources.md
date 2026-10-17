@@ -39,7 +39,10 @@ Primary references used to shape the standards and checklists. Recheck versions 
 - W3C, [Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/) — normative web standard; select the applicable conformance level and verify the full criteria.
 - Microsoft, [Xbox Accessibility Guidelines](https://learn.microsoft.com/en-us/xbox/accessibility/guidelines) — game best practices, not a legal conformance checklist.
 - Apple, [App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
-- Steamworks, [Review Process](https://partner.steamgames.com/doc/store/review_process) and [Content Survey](https://partner.steamgames.com/doc/gettingstarted/contentsurvey)
+- Steamworks, [Review Process](https://partner.steamgames.com/doc/store/review_process), [Content Survey](https://partner.steamgames.com/doc/gettingstarted/contentsurvey), and Steam, [Subscriber Agreement](https://store.steampowered.com/subscriber_agreement/)
+- U.S. Copyright Office, [Circular 30: Works Made for Hire](https://www.copyright.gov/circs/circ30.pdf)
+- U.S. Copyright Office, [Copyright Act, Chapter 2: Copyright Ownership and Transfer](https://www.copyright.gov/title17/92chap2.html)
+- U.S. Copyright Office, [Copyright and Artificial Intelligence, Part 2](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf)
 - U.S. Federal Trade Commission, [Children's Privacy guidance](https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy)
 - U.S. Federal Trade Commission, [Reviews, endorsements, and influencers guidance](https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews)
 - European Union, [Regulation (EU) 2024/1689—the AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)

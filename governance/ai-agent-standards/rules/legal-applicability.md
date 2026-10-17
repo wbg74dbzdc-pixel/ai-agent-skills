@@ -12,11 +12,14 @@ Before public or production release, identify:
 - accounts, payments, subscriptions, advertising, referrals, reviews, marketplaces, user-generated content, messaging, and moderation;
 - cookies, analytics, profiling, automated decisions, AI generation, third-party models, processors, embeds, and international data movement;
 - industry, export, accessibility, intellectual-property, consumer-protection, and recordkeeping considerations;
-- how users access, correct, export, delete, withdraw consent, complain, appeal, or receive support.
+- how users access, correct, export, delete, withdraw consent, complain, appeal, or receive support;
+- for created or commissioned work, who contributed code, art, audio, writing, designs, data, models, and other material; what agreements, assignments, or licenses establish the project's rights; and what third-party, AI-provider, store, publisher, mod, or user-content terms apply.
+
+For games and products accepting user content, also identify ownership and licensing of player submissions, mods, feedback, fan content, and platform-hosted content, including any rights to modify, sublicense, distribute, or continue using content after removal.
 
 ## Required output
 
-Create a compliance matrix that records each issue, why it applies or does not apply, jurisdiction or platform, authoritative source, required control, evidence, owner, status, review date, and unresolved legal question.
+Create a compliance matrix that records each issue, why it applies or does not apply, jurisdiction or platform, authoritative source, required control, evidence, owner, status, review date, and unresolved legal question. Use the [rights and license inventory](../templates/rights-and-license-inventory.md) to track project materials and agreements where ownership or permission must be evidenced.
 
 - Do not invent a jurisdiction, obligation, deadline, or exemption.
 - Recheck unstable rules near release and when product facts change.
