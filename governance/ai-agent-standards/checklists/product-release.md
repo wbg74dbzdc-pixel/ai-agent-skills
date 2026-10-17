@@ -21,7 +21,10 @@ Use before public launch, monetization, collection of personal data, enabling us
 - [ ] Assess user-content ownership/licensing, moderation, notice/report/takedown, appeals, abuse, defamation, and record-preservation obligations where applicable.
 - [ ] Assess game ratings, content disclosures, virtual currencies, randomized purchases, trading, gambling/real-money features, chat, and platform policies when relevant.
 - [ ] Assess AI transparency, automated decisions, biometrics, high-impact uses, human oversight, records, and appeals where relevant.
-- [ ] Verify rights and compatible licenses for code, media, fonts, data, marks, and AI-generated material; preserve attribution and required notices.
+- [ ] Complete the [rights and license inventory](../templates/rights-and-license-inventory.md) for material project assets and contributions. Verify creator/source, ownership evidence or license, commercial/distribution scope, required attribution, and restrictions before release.
+- [ ] Verify signed written contributor or co-development agreements where needed; confirm pre-existing materials, newly created work, ownership/assignment or license scope, credit, and delivery rights. Do not assume paying for work or calling it “work made for hire” transfers ownership.
+- [ ] Review current EULA/terms, store/publisher terms, SDK conditions, and any mod/workshop/UGC policy. Flag ownership transfers and broad exclusive, perpetual, irrevocable, transferable, sublicensable, modification, derivative-work, or commercial grants for explicit scope review and qualified counsel where material.
+- [ ] Keep the developer's game/product rights distinct from player access licenses and user-submitted content rights. Ensure terms describe actual rights and match platform-required grants; do not promise that work is theft-proof or that no claim can be brought.
 - [ ] Substantiate explicit and implied marketing claims. Use genuine reviews and disclose material connections; avoid deceptive interfaces and fabricated testimonials.
 - [ ] Ensure every notice, term, consent, permission, privacy label, store listing, and marketing statement matches the actual released behavior and vendors.
 
