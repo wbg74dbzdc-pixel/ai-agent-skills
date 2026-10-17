@@ -21,7 +21,7 @@ The goal is not a larger prompt. It is a reliable operating system: a short mand
 | `rules/` | Detailed requirements by concern |
 | `playbooks/` | Task-specific operating procedures |
 | `checklists/` | Routed, evidence-based product, security, and release checks |
-| `skills/` | Portable reusable agent skills that implement approved procedures |
+| Repository-root `skills/` | Portable reusable agent skills that implement approved procedures |
 | `templates/` | Cross-agent and project bootstrap files |
 | `evals/` | Compliance rubrics and regression cases |
 | `docs/research-sources.md` | Primary sources behind the standard |
