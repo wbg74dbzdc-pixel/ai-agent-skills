@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.0 - 2026-10-16
+
+- Added a cost-aware, context-minimal agent workflow, bounded task brief, and compact replace-in-place handoff.
+- Added a Claude Code efficiency audit skill with measurement-first guidance for context, scripts, skills, hooks, and subagents.
+- Routed task execution and client access through the updated constitution.
+
+
 ## 1.4.2 - 2026-10-16
 
 - Added project ownership and chain-of-title checks for commissioned, contributed, third-party, and AI-assisted work.

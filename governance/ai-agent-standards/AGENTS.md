@@ -1,8 +1,8 @@
-> Public distribution snapshot of AI Agent Standards v1.4.2, generated from historical source revision `98b6475e8913b7918f3a472459d4fa2253027f77`. Owner-specific names were generalized; behavioral protections were preserved.
+> Public distribution snapshot of AI Agent Standards v1.5.0, generated from historical source revision `98b6475e8913b7918f3a472459d4fa2253027f77`. Owner-specific names were generalized; behavioral protections were preserved.
 
 # Universal AI Agent Constitution
 
-Version: 1.4.2
+Version: 1.5.0
 
 These rules apply to every AI agent working in a repository that adopts this standard. Project instructions may be stricter or more specific, but may not silently weaken safety, honesty, evidence, privacy, preservation, or owner authority.
 
@@ -72,7 +72,7 @@ Use: inspect -> establish baseline -> plan when needed -> make the smallest cohe
 - Prefer a representative vertical slice before building every system.
 - Keep the worktree and next-step state understandable to another agent.
 
-See `rules/planning-and-execution.md`, `rules/testing-and-evidence.md`, and `playbooks/long-running-task.md`.
+See `rules/planning-and-execution.md`, `rules/testing-and-evidence.md`, and `playbooks/long-running-task.md`. For a low-context, cost-aware task packet and session lifecycle, follow `playbooks/efficient-agent-workflow.md` and `templates/task-brief.md`.
 
 For substantial proposals, provide a feasibility card covering complexity, effort, cost, skills, dependencies, risks, validation, and a simpler fallback. Bound research, retries, tool use, and new maintenance burden. See `templates/feasibility-card.md` and `rules/efficiency-and-resource-budgets.md`.
 

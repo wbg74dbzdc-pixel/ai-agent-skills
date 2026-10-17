@@ -19,6 +19,7 @@ Each skill lives in `skills/<skill-name>/` and uses `SKILL.md` as its entry poin
 
 | Skill | Purpose |
 | --- | --- |
+| [`claude-code-efficiency`](skills/claude-code-efficiency/SKILL.md) | Audit and reduce Claude Code context and usage based on measured causes, without weakening verification. |
 | [`ai-council`](skills/ai-council/SKILL.md) | Pressure-test consequential decisions using independent perspectives, peer review, dissent-preserving synthesis, and verification. |
 
 See [CATALOG.md](CATALOG.md) for triggers, boundaries, and compatibility notes.
