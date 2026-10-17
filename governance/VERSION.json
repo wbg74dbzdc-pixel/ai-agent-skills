@@ -6,11 +6,10 @@
   "source_revision_note": "Historical seed revision imported from the former private standards repository; current canonical source is this public repository.",
   "generated_at": "2026-10-16",
   "published_path": "governance/ai-agent-standards",
-  "included_source_files": 66,
+  "included_source_files": 65,
   "excluded_source_paths": [
     ".gitignore",
-    "skills/ai-council/** (maintained separately under the public repository's skills directory)",
-    "skills/claude-code-efficiency/** (maintained separately under the public repository's skills directory)"
+    "skills/ai-council/** (maintained separately under the public repository's skills directory)"
   ],
   "transformations": [
     "Generalized owner-specific personal names and account-specific paths",
