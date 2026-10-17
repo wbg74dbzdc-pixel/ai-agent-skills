@@ -51,6 +51,6 @@ A link alone is insufficient because an agent may not have cross-repository acce
 - Never confuse AI consensus with proof.
 - Never claim completion without evidence.
 
-For consequential decisions, the optional AI Council in the repository's public `skills/ai-council/` and this snapshot's `playbooks/ai-council.md` provides structured independent review without replacing factual verification or the user's authority.
+For consequential decisions, the optional AI Council in `skills/ai-council/` and `playbooks/ai-council.md` provides structured independent review without replacing factual verification or the user's authority.
 
 This repository remains private until The user explicitly approves publication.

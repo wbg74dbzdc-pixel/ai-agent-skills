@@ -14,13 +14,12 @@ Do not treat skill instructions as a replacement for the universal standards. Pr
 ## Provenance
 
 - Public standards version: **1.3.0**
-- Private canonical source revision: `98b6475e8913b7918f3a472459d4fa2253027f77`
-- Manifest: [VERSION.json](VERSION.json)
-- Published snapshot: [ai-agent-standards/](ai-agent-standards/)
+- The historical source revision is recorded in [VERSION.json](VERSION.json).
+- Public standards live under `governance/ai-agent-standards/`; independently installable skills live under `skills/<skill-name>/`.
 
-The snapshot preserves the source structure so agents can load only relevant material. Owner-specific names were generalized for public distribution; no behavioral protection was intentionally removed.
+## Privacy and synchronization rule
 
-## Synchronization rule
+The public bundle uses role-based terms such as `the project owner` and generic repository placeholders. Do not publish legal names, personal contact details, private paths, credentials, private project information, or account identifiers. Review the complete changed tree before each public update.\n
 
 The private repository remains canonical. Whenever it changes, a maintainer must regenerate this snapshot, run privacy and secret checks, compare the complete source file list, update `VERSION.json`, and update the public version shown here and in the root README. Generated snapshot files should not be edited independently.
 

@@ -10,7 +10,7 @@ A web-enabled agent can use this single public repository for both governance an
 2. Load only the standards modules relevant to the current task.
 3. Load any relevant reusable skill from the catalog below.
 
-The public governance snapshot currently distributes **AI Agent Standards v1.3.0** from source revision `98b6475e8913b7918f3a472459d4fa2253027f77`. Its [version manifest](governance/VERSION.json) makes stale copies detectable.
+The standards bundle and reusable skills are maintained together here, in separate directories. The [version manifest](governance/VERSION.json) records standards provenance and transformations.
 
 Each skill lives in `skills/<skill-name>/` and uses `SKILL.md` as its entry point. Agents should load only the skill that matches the current task, then read linked references only when needed.
 
