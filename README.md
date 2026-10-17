@@ -7,9 +7,10 @@ Portable, vendor-neutral skills and public AI-agent operating standards for Clau
 A web-enabled agent can use this single public repository for governance and reusable skills:
 
 1. Read the [public AI Agent Standards](governance/README.md), beginning with the [universal constitution](governance/ai-agent-standards/AGENTS.md).
-2. Load only the standards modules relevant to the current task.
-3. For software or a release, use the [checklist router](governance/ai-agent-standards/checklists/README.md) to select applicable product, security, accessibility, and legal checklists.
-4. Load any relevant reusable skill from the catalog below.
+2. Verify client access and offline fallback in the [AI client access guide](governance/ai-agent-standards/docs/ai-client-access.md).
+3. Load only the standards modules relevant to the current task.
+4. For software or a release, use the [checklist router](governance/ai-agent-standards/checklists/README.md) to select applicable product, security, accessibility, and legal checklists.
+5. Load any relevant reusable skill from the catalog below.
 
 Standards and reusable skills are maintained together here, in separate directories. The [version manifest](governance/VERSION.json) records the original seed revision and publication history.
 
@@ -19,6 +20,7 @@ Each skill lives in `skills/<skill-name>/` and uses `SKILL.md` as its entry poin
 
 | Skill | Purpose |
 | --- | --- |
+| [`claude-code-efficiency`](skills/claude-code-efficiency/SKILL.md) | Audit and reduce Claude Code context and usage based on measured causes, without weakening verification. |
 | [`ai-council`](skills/ai-council/SKILL.md) | Pressure-test consequential decisions using independent perspectives, peer review, dissent-preserving synthesis, and verification. |
 
 See [CATALOG.md](CATALOG.md) for triggers, boundaries, and compatibility notes.
