@@ -1,4 +1,4 @@
-> Public distribution snapshot of AI Agent Standards v1.4.2, generated from historical source revision `98b6475e8913b7918f3a472459d4fa2253027f77`. Owner-specific names were generalized; behavioral protections were preserved.
+> Public distribution snapshot of AI Agent Standards v1.5.0, generated from historical source revision `98b6475e8913b7918f3a472459d4fa2253027f77`. Owner-specific names were generalized; behavioral protections were preserved.
 
 # Universal AI Agent Constitution
 
