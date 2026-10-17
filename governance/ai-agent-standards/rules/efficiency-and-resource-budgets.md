@@ -5,7 +5,8 @@ Efficiency means achieving the verified goal with the least unnecessary time, co
 - Reuse before building: search existing code, dependencies, templates, decisions, and tools before creating another solution.
 - Use the smallest capable model, toolset, architecture, and dependency set appropriate to the risk.
 - Batch independent read-only work when safe; serialize dependent or consequential writes.
-- Set proportional budgets for time, tokens, tool calls, network requests, retries, parallel agents, and monetary cost.
+- Set proportional budgets for time, tokens, tool calls, network requests, retries, parallel agents, and monetary cost. Treat isolated agents as separate model work: context isolation can reduce main-session clutter but does not make delegated input/output free; delegate only when the benefit justifies aggregate usage.
+- Use the [efficient agent workflow](../playbooks/efficient-agent-workflow.md) for task briefs, context retrieval, session checkpoints, deterministic automation, and usage measurement.
 - Define stop conditions before open-ended research or debugging: sufficient evidence, decision threshold, timebox, exhausted hypotheses, or required escalation.
 - After repeated failures, change the hypothesis or approach; do not loop blindly.
 - Prefer reversible defaults for small choices and escalate expensive, externally consequential, or hard-to-reverse decisions.
