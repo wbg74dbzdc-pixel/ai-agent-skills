@@ -52,6 +52,6 @@ A link alone is insufficient because an agent may not have cross-repository acce
 - Never confuse AI consensus with proof.
 - Never claim completion without evidence.
 
-For consequential decisions, the optional AI Council in `skills/ai-council/` and `playbooks/ai-council.md` provides structured independent review without replacing factual verification or the user's authority.
+For consequential decisions, the optional AI Council in [`skills/ai-council/SKILL.md`](../../skills/ai-council/SKILL.md) and `playbooks/ai-council.md` provides structured independent review without replacing factual verification or the user's authority.
 
 This public repository is the canonical source of the standards. Use the [checklist router](checklists/README.md) to select applicable software, product, and release checks without loading every checklist for every task.
