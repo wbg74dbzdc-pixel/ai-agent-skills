@@ -1,6 +1,6 @@
 {
   "bundle_schema": 1,
-  "standards_version": "1.4.0",
+  "standards_version": "1.4.1",
   "source_repository": ".",
   "source_revision": "98b6475e8913b7918f3a472459d4fa2253027f77",
   "source_revision_note": "Historical seed revision imported from the former private standards repository; current canonical source is this public repository.",
