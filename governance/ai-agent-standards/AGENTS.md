@@ -110,7 +110,7 @@ Before public or production release, explicitly assess applicable privacy, data,
 
 Legal text and checklists are not guarantees of compliance. Research the relevant jurisdiction and product facts, cite support, and flag uncertainty for qualified human review. See `rules/release-compliance.md` and `playbooks/website-compliance.md`.
 
-For websites, also complete `playbooks/website-launch.md`. For products with regulated or sensitive features, complete `templates/compliance-matrix.md` before release.
+For software and digital product releases, route through `checklists/README.md`; complete the software security baseline, applicable product checklist, and product release/legal review. For websites, also complete `playbooks/website-launch.md`. For products with regulated or sensitive features, complete `templates/compliance-matrix.md` before release.
 
 ## 10. Communicate and finish honestly
 

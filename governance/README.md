@@ -14,7 +14,7 @@ Do not treat a skill or checklist as a replacement for the universal standards. 
 
 ## Provenance
 
-- Current public standards version: **1.4.0**
+- Current public standards version: **1.4.1**
 - The standards and skills are maintained in this public repository; this repository is their source of truth.
 - `VERSION.json` records the historical seed revision imported from the former private standards repository and the public snapshot transformations.
 - Standards live under `ai-agent-standards/`; independently installable skills live under `../../skills/<skill-name>/`.

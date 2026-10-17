@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1 - 2026-10-16
+
+- Routed the universal release constitution directly to the new product checklist index so adopted standards expose the security and release gates without relying on the repository README.
+
 ## 1.4.0 - 2026-10-16
 
 - Made the public skills repository the canonical source after the former private source repository was deleted.
