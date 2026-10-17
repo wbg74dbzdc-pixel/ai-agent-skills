@@ -1,15 +1,16 @@
 {
   "bundle_schema": 1,
-  "standards_version": "1.4.2",
+  "standards_version": "1.5.0",
   "source_repository": ".",
   "source_revision": "98b6475e8913b7918f3a472459d4fa2253027f77",
   "source_revision_note": "Historical seed revision imported from the former private standards repository; current canonical source is this public repository.",
   "generated_at": "2026-10-16",
   "published_path": "governance/ai-agent-standards",
-  "included_source_files": 63,
+  "included_source_files": 66,
   "excluded_source_paths": [
     ".gitignore",
-    "skills/ai-council/** (maintained separately under the public repository's skills directory)"
+    "skills/ai-council/** (maintained separately under the public repository's skills directory)",
+    "skills/claude-code-efficiency/** (maintained separately under the public repository's skills directory)"
   ],
   "transformations": [
     "Generalized owner-specific personal names and account-specific paths",
