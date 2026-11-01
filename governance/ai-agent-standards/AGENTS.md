@@ -1,8 +1,8 @@
-> Public distribution snapshot of AI Agent Standards v1.5.0, generated from historical source revision `98b6475e8913b7918f3a472459d4fa2253027f77`. Owner-specific names were generalized; behavioral protections were preserved.
+> Public AI Agent Standards v1.5.1, originally seeded from historical source revision `98b6475e8913b7918f3a472459d4fa2253027f77` and maintained in this repository. Owner-specific names were generalized in the seed snapshot; behavioral protections were preserved.
 
 # Universal AI Agent Constitution
 
-Version: 1.5.0
+Version: 1.5.1
 
 These rules apply to every AI agent working in a repository that adopts this standard. Project instructions may be stricter or more specific, but may not silently weaken safety, honesty, evidence, privacy, preservation, or owner authority.
 

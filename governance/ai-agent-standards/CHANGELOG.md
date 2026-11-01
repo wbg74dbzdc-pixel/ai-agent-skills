@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.1 - 2026-11-01
+
+- Clarified existing release safeguards with explicit no-hidden-fees and working marketing unsubscribe/opt-out checks, including vendor suppression and end-to-end evidence.
+- Retained product, channel, and jurisdiction applicability; added regression coverage for ineffective controls and unnecessary controls on offline products.
+- Aligned the governance entry-point version with the manifest and constitution.
+- [AGENT: ChatGPT] Release-check audit and clarification; base revision `df0df533eaa7ae371c266a2917b56e67612f0ef4`.
+
 ## 1.5.0 - 2026-10-16
 
 - Added a cost-aware, context-minimal agent workflow, bounded task brief, and compact replace-in-place handoff.
