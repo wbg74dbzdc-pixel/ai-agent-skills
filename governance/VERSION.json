@@ -1,6 +1,6 @@
 {
   "bundle_schema": 1,
-  "standards_version": "1.5.0",
+  "standards_version": "1.5.1",
   "source_repository": ".",
   "source_revision": "98b6475e8913b7918f3a472459d4fa2253027f77",
   "source_revision_note": "Historical seed revision imported from the former private standards repository; current canonical source is this public repository.",
@@ -16,7 +16,9 @@
     "Adapted repository-specific distribution notices and links",
     "Published the standards snapshot and reusable skills in separate directories",
     "Added routed security, product, and release checklists",
-    "Adopted the public repository as the canonical source after deletion of the former private source"
+    "Adopted the public repository as the canonical source after deletion of the former private source",
+    "Clarified transparent pricing and working marketing opt-out checks in standards 1.5.1"
   ],
-  "canonical_source_is_private": false
+  "canonical_source_is_private": false,
+  "updated_at": "2026-11-01"
 }

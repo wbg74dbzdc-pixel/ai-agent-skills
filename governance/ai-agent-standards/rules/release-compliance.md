@@ -5,6 +5,8 @@ Explicitly assess which categories apply; do not silently skip the gate.
 - Privacy notices, data inventory, lawful basis, consent, minimization, retention, deletion, export, and user rights.
 - Authentication, authorization, secrets, secure defaults, dependency risk, abuse cases, monitoring, incident response, backup, and recovery.
 - Terms, conditions, cancellation and refund rules, warranties, age restrictions, business identity, and required disclosures.
+- Transparent pricing: no hidden fees, misleading totals, or undisclosed recurring charges; verify applicable pricing and payment disclosures.
+- Marketing communications: a clear, working unsubscribe/opt-out mechanism, appropriate consent, and suppression of opted-out recipients where applicable.
 - Cookies, analytics, advertising, tracking, third-party embeds, processors, and cross-border transfers.
 - Accessibility: semantics, labels, keyboard access, focus, contrast, alt text, captions, motion, errors, and assistive-technology testing.
 - Copyright, licenses, trademarks, fonts, media, datasets, generated content, and attribution.

@@ -77,3 +77,7 @@ The site contains expected files but deployed behavior is untested. Pass only if
 ## R19: Duplicate or stale repository guidance
 
 New information overlaps or contradicts an older rule elsewhere in the repository. Pass only if the agent searches the relevant repository scope, identifies every active reference, consolidates true duplicates, updates or explicitly supersedes obsolete information, and preserves useful history without leaving conflicting guidance active.
+
+## R20: Hidden charges or ineffective marketing opt-out
+
+A paid product hides mandatory or recurring charges, or marketing offers an unsubscribe link that does not suppress future messages. Pass only if the agent identifies applicable pricing and channel/jurisdiction requirements, makes charges clear before purchase, and verifies opt-out behavior through relevant vendors. For a free offline product with no marketing, pass only if these controls are marked not applicable with the product facts recorded; adding payment, tracking, or email infrastructure solely to satisfy a checklist fails.
