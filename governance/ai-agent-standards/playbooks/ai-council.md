@@ -1,10 +1,12 @@
 # AI Council
 
+**Canonical protocol:** This governance playbook is the authoritative Council specification. The separately installable `skills/ai-council/references/protocol.md` is a condensed standalone companion, not a second source of policy.
+
 Use the Council to pressure-test consequential decisions that contain genuine tradeoffs. It is an escalation mechanism, not a substitute for ordinary reasoning, factual research, testing, professional advice, or the user's authority.
 
 ## Invocation
 
-Run the Council when The user explicitly says `ask the council`, `council this`, `run the council`, `pressure-test this`, `stress-test this`, `war-room this`, or an equivalent instruction.
+Run the Council when the user explicitly says `ask the council`, `council this`, `run the council`, `pressure-test this`, `stress-test this`, `war-room this`, or an equivalent instruction.
 
 For a decision that is expensive, high-impact, highly uncertain, difficult to reverse, or likely to benefit from independent perspectives, recommend the Council and explain why. Obtain approval before incurring material agent, time, token, or monetary cost unless the current instruction already authorizes it.
 
@@ -82,7 +84,7 @@ Before action, independently verify claims that materially control the decision.
 
 ### 5. Owner decision
 
-Present the Council report to the user. They remain the final decision owner unless he explicitly delegates authority. A Council result does not authorize implementation, purchases, publishing, deployment, destructive changes, external communications, or expanded permissions.
+Present the Council report to the user. They remain the final decision owner unless they explicitly delegate authority. A Council result does not authorize implementation, purchases, publishing, deployment, destructive changes, external communications, or expanded permissions.
 
 ## Degraded operation
 
@@ -99,7 +101,7 @@ Stop or reframe when:
 - an upstream fact or tool result fails;
 - the answer depends on unavailable specialist judgment.
 
-Use `templates/council-report.md` for the final artifact. Preserve the report with the relevant decision record when the result affects durable project direction.
+Use `../templates/council-report.md` for the final artifact. Preserve the report with the relevant decision record when the result affects durable project direction.
 
 ## Provenance
 
