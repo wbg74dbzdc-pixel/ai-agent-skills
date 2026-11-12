@@ -42,3 +42,40 @@ For representative comparable tasks, record:
 - elapsed time and recurring script maintenance.
 
 Compare like with like, account for task difficulty and correctness, and make one workflow change at a time. Do not claim savings from shorter prompts, a high cache hit, or a small context window alone. Review the [AI access and availability guide](../docs/ai-client-access.md) separately from task efficiency: a repository link does not guarantee a live client connection.
+
+
+## Choosing continue, compact, or fresh session
+
+When advising a human on a coding-agent prompt, handoff, or next work package, **proactively recommend a session action**, with one short reason. This is a recommendation, not an instruction to interrupt an active agent. The default decision is driven by task continuity and useful context, not message count alone.
+
+| Situation | Recommendation | Why |
+| --- | --- | --- |
+| Same unfinished feature, relevant recent code/debug context | **CONTINUE** the current session | Avoid setup and rereads; retain relevant cache |
+| Same feature, but large irrelevant logs, dead ends, or unrelated history | **COMPACT** with a scoped summary of the task and verified state | Keep useful context without hauling unrelated turns |
+| Different substantial feature, milestone, repository, or work package | **NEW SESSION** after a durable handoff (or \`/clear\` if history need not be retained) | Avoid carrying finished-task context into unrelated work |
+| One quick clarification while an agent is working | **CONTINUE**; use \`/btw\` only when that installed client supports it and the question needs no tools | A new session for every message wastes setup and context |
+| An active worker is in the middle of a task | **NO INTERRUPTION**; prepare the next-session recommendation for a safe checkpoint | Protect uncommitted work, tests, and handoff coherence |
+| Current context/usage evidence is missing | Give a **provisional** recommendation; never claim actual context or quota measurements | Keep advice calibrated to evidence |
+
+Do **not** require a new conversation for every user message, compact on a timer, or keep one immortal orchestrator chat. New chats and compaction do **not** reset account usage limits. Include a concise \`Session: Continue / Compact / New — [reason]\` note when providing an external-agent prompt, unless the user asks to omit process advice.
+
+For \`/compact\`, preserve the exact task contract, current branch/head, pending changes and stashes, accepted decisions, test commands/results, blockers, owner approvals, and next actionable step. For a new session, first save a minimal handoff in the authoritative repo; verify branch and file state after reopening. A concise task packet should say exactly which source files or commits to inspect and should *not* stuff the entire historical transcript into a fresh chat.
+
+### Context and cache operating notes (Claude Code; re-check current docs)
+
+- Inspect \`/context\` at session start, especially always-loaded instructions and MCP tool definitions. Keep \`CLAUDE.md\` small and stable; load narrow skills only when applicable. Disable unused integrations only when it will not break the task.
+- Set \`/model\` and \`/effort\` deliberately before a substantial work package when practical. Changing either mid-conversation can invalidate a cached prompt prefix; this is a **cost consideration**, not a ban on necessary escalation. Do not assert that one model is universally most usage-efficient: compare verified completion, retries, and rework at representative difficulty.
+- Prefer the tool's file mention feature when it actually saves a search/read operation, but do not attach the same large file repeatedly in one context.
+- Quiet routine command output, keeping full logs in artifacts and summary counts/failures in chat. A test output appended once can remain in every later turn of that conversation. Never hide a distinct failure or mask an exit code.
+- Use subagents to isolate *substantial independent work or noisy investigations*, not to create worker fan-out by default. Parallel agent work can increase aggregate usage even while accelerating wall-clock progress.
+- Choose targeted tests for development iterations and full gates at integration/release milestones; do not weaken verification for token savings.
+- Cache lifetimes depend on plan and product. Avoid claiming a fixed timeout without checking current vendor documentation. Compact before a long break when useful, and prefer a verified handoff over resuming huge old histories when cache reuse is unlikely.
+- For recurring agent operations, instrument task outcomes: changed files, passed independent gates, time to tested result, rework, context evidence, and subagent usage when observable. Commits/lines/tokens alone are not proof of productivity.
+
+### Vendor references (checked 2026-11-11)
+
+- Anthropic, [Maximizing the value of your Claude Code sessions](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions), 2026-08-14: \`/clear\` between tasks; deliberate model/effort selection; \`/context\`; noisy output; caching, \`/compact\`, and subagent tradeoffs.
+- Anthropic, [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips): planning, context-aware \`/btw\`, verification, and auto-memory (product/version dependent).
+- Anthropic, [Troubleshooting](https://code.claude.com/docs/en/troubleshooting): compacting or resetting a heavy context and addressing context thrash.
+
+These sources describe vendor behavior; the continue/compact/new decision rubric above is this standard's operational recommendation, **not** a vendor-guaranteed usage reduction.
