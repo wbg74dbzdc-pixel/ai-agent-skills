@@ -41,7 +41,7 @@ For representative comparable tasks, record:
 - verification results, retries, and rework;
 - elapsed time and recurring script maintenance.
 
-Compare like with like, account for task difficulty and correctness, and make one workflow change at a time. Do not claim savings from shorter prompts, a high cache hit, or a small context window alone. Review the [AI access and availability guide](../docs/ai-client-access.md) separately from task efficiency: a repository link does not guarantee a live client connection.
+Compare like with like, account for task difficulty and correctness, and make one workflow change at a time. Do not claim savings from shorter prompts, a high cache hit, or a small context window alone. Review actual client integration/access separately from task efficiency: verify current host capabilities and connector permissions; a repository link does not guarantee a live client connection.
 
 
 ## Choosing continue, compact, or fresh session
