@@ -5,7 +5,7 @@ description: Audit or improve Claude Code workflows to reduce unnecessary usage,
 
 # Claude Code Efficiency
 
-Follow the vendor-neutral [Efficient Agent Workflow](../../governance/ai-agent-standards/playbooks/efficient-agent-workflow.md) and inspect only the active project's relevant setup.
+This skill is self-contained when installed as an individual directory. Use the task's verified repository state, a concise task brief and an evidence-based handoff. The full repository also maintains an optional [Efficient Agent Workflow](https://github.com/wbg74dbzdc-pixel/ai-agent-skills/blob/main/governance/ai-agent-standards/playbooks/efficient-agent-workflow.md); it is not a required local dependency.
 
 ## Audit sequence
 
@@ -30,7 +30,7 @@ Follow the vendor-neutral [Efficient Agent Workflow](../../governance/ai-agent-s
 
 ## Proactive session recommendation for prompt authors
 
-When asked to write a prompt, continuation instruction, or handoff for a coding agent, include a **one-line recommendation** in the surrounding response: **CONTINUE**, **COMPACT**, or **NEW SESSION**, plus a specific reason. Do this without waiting for the user to ask which choice is best. Follow the rubric in the [Efficient Agent Workflow](../../governance/ai-agent-standards/playbooks/efficient-agent-workflow.md#choosing-continue-compact-or-fresh-session).
+When asked to write a prompt, continuation instruction, or handoff for a coding agent, include a **one-line recommendation** in the surrounding response: **CONTINUE**, **COMPACT**, or **NEW SESSION**, plus a specific reason. Do this without waiting for the user to ask which choice is best. Use the self-contained decision rules below. Do not require a sibling governance directory.
 
 - Same work package, helpful live context: CONTINUE.
 - Same work package, irrelevant context crowding current work: COMPACT while preserving the verified task state.

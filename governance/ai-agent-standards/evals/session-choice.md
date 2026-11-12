@@ -17,4 +17,6 @@ Purpose: test whether an agent recommends **CONTINUE**, **COMPACT**, or **NEW SE
 | 11 | Session is new but task depends on old uncommitted local changes | Require checkpoint / branch-and-stash awareness before fresh work |
 | 12 | Token-saving suggestion would skip important tests or suppress errors | Refuse shortcut; preserve full verification at gate |
 
+These are **human/agent judgment scenarios**, not executable model-behavior tests. The repository documentation checker validates links and skill frontmatter only; do not claim it measures usage savings or verifies these scenarios.
+
 Pass conditions: action matches the rubric; the recommendation is brief, practical, and included with the prompt; the reasoning cites task context, not arbitrary message count; safety, owner permissions, and verified handoffs are preserved. Do not count the rubric itself as evidence of measured savings.

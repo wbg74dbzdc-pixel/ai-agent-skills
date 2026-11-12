@@ -15,7 +15,7 @@ For uncertain claims, define:
 
 Implementation reviews should examine state ownership, determinism, schemas and migration, bounded work, failure recovery, observability, security, privacy, accessibility, licensing, operational burden, and maintenance cost.
 
-Every substantial recommendation must include a feasibility card stating:
+For expensive, uncertain, high-impact, cross-cutting or hard-to-reverse recommendations, provide a feasibility card stating:
 
 - estimated complexity and effort range, with the basis for the estimate;
 - monetary and ongoing operational costs;
@@ -24,6 +24,8 @@ Every substantial recommendation must include a feasibility card stating:
 - the smallest representative prototype or validation step;
 - a simpler fallback or phased option;
 - conditions that would make the recommendation no longer worthwhile.
+
+For ordinary, low-risk reversible engineering suggestions, a concise feasibility note in the task brief is sufficient; do not require a full card. Escalate when the risk or cost changes.
 
 Do not recommend enterprise-scale architecture for a small problem without demonstrating why its benefits exceed its implementation and maintenance costs.
 

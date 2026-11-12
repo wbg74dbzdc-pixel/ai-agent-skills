@@ -1,58 +1,37 @@
-# AI Council Protocol
+# AI Council Protocol — Standalone Skill Companion
 
-Use the Council to pressure-test consequential decisions with genuine tradeoffs. It is an escalation mechanism, not a substitute for ordinary reasoning, research, testing, professional advice, or the user's authority.
+This file is self-contained when the `ai-council` skill is copied without the standards bundle. The **canonical full governance protocol** is `governance/ai-agent-standards/playbooks/ai-council.md` in the public standards repository. If both exist, use the canonical version; the constraints below are the portable minimum, not a competing policy.
 
-## Preconditions
+## When and how much
 
-Record the actual decision and desired end state; decision owner; success criteria; constraints; non-negotiables; deadline; known facts; assumptions; unknowns; authoritative sources; realistic options; mode; and resource budget. Include doing nothing or a smaller experiment when relevant. Ask focused questions if the framing is materially incomplete.
+Use Council review only for consequential decisions with genuine tradeoffs, or when explicitly requested. Record the decision, owner, goals, constraints, verified evidence, disputed assumptions, realistic alternatives (including doing nothing), deadline and budget.
 
-## Modes
+- **Quick:** 3 independently scoped advisors plus lead synthesis; add peer review if uncertainty warrants it.
+- **Standard:** 5 independent advisors, anonymized peer comparison, lead synthesis.
+- **Deep:** Standard plus targeted research, deliberate disconfirmation and independent verification.
 
-| Mode | Use | Minimum procedure |
-| --- | --- | --- |
-| Quick | Moderate-stakes, reversible decision | Three independent advisors and lead synthesis; peer review only if disagreement or uncertainty warrants it |
-| Standard | Consequential decision with real tradeoffs | Five independent advisors, anonymized peer review, and chairman synthesis |
-| Deep | High-impact, costly, legally sensitive, safety-sensitive, or hard-to-reverse decision | Standard mode plus targeted research or specialist review, explicit disconfirmation, and independent verification of decisive claims |
+Choose a mode proportional to importance and cost. Approval is required before material new agent/cost fan-out unless already authorized.
 
-Use the least expensive mode that matches the risk. The user may override the mode.
+## Independent lenses
 
-## Standard lenses
+1. **Contrarian:** failure modes and hidden assumptions.
+2. **First principles:** core goal, constraints and framing.
+3. **Expansionist:** valuable alternatives and overlooked upside.
+4. **Outsider:** missing stakeholders, surprising gaps.
+5. **Executor:** implementability, resources, rollback and validation.
 
-1. **Contrarian:** Failure modes, weak assumptions, contradictions, second-order harm, and reasons the preferred option may fail.
-2. **First principles:** Reconstruct the problem from the goal, constraints, and fundamentals; challenge the framing.
-3. **Expansionist:** Overlooked upside, combinations, opportunities, and stronger variants, with cost and feasibility.
-4. **Outsider:** Obvious gaps, confusing assumptions, stakeholder effects, and questions insiders may miss.
-5. **Executor:** Dependencies, effort, sequencing, operational burden, validation, rollback, and the next concrete action.
+Give each a neutral identical evidence packet; do not show other findings before the first pass. Require each to state its strongest objection to its own view, and distinguish facts from estimates and unknowns.
 
-Adapt expertise to the task. Preserve at least one disconfirming lens and one execution lens.
+## Reconcile, verify, return
 
-## Procedure
+Anonymize peer feedback when feasible; inspect correlated error, dissent and missing evidence. Synthesize tradeoffs and a feasible smallest next step. Independently verify claims that determine the decision. Do not infer truth from agreement, simulation, or repeated model output.
 
-### Independent analysis
+Deliver a report with options, evidence, objections, feasibility/cost, remaining uncertainties, recommendation or `insufficient evidence`, and an owner decision field (see `report-template.md`). Preserve dissent and provenance.
 
-Give every advisor the same neutral brief, evidence packet, constraints, and output requirements. Do not expose other conclusions in the first round. Require separation of observations, sourced claims, estimates, assumptions, proposals, and unknowns. Require evidence or a verification method for decisive claims, plus feasibility, what would change the recommendation, and the strongest self-objection.
+If real independent agents are unavailable, label the process **sequential fallback** and disclose its limits. Never claim anonymity or independence that was not achieved.
 
-### Anonymized peer review
-
-Remove identifying labels when possible. Rank reasoning quality, evidence, feasibility, and goal alignment. Identify shared unsupported premises, correlated blind spots, omitted options, and contradictions. Scores guide synthesis but do not determine truth.
-
-### Chairman synthesis
-
-Reconcile duplication and factual conflict; distinguish consensus from shared premises; preserve material dissent; compare tradeoffs, opportunity costs, and feasibility; flag required verification or human review; state what the recommendation sacrifices; and give the smallest useful next action, validation step, and revisit conditions. Return `insufficient evidence` or a bounded experiment instead of forcing a verdict.
-
-### Verification and owner decision
-
-Independently verify claims that materially control the decision. Agreement is never verification. Escalate legal, medical, financial, safety, privacy, security, or other high-stakes uncertainty appropriately. Present the report to the decision owner. The report does not authorize purchases, publishing, deployment, destructive changes, external communications, or expanded permissions.
-
-## Degraded operation
-
-If isolated agents are unavailable, simulate lenses sequentially only when useful and label the run `sequential fallback`. Do not claim independence or anonymity that the system did not provide. Prefer separate model sessions or human reviewers for important decisions when available.
-
-## Stop conditions
-
-Stop or reframe when advisors rely on the same unverified premise, the brief is incomplete, further rounds add no evidence, the budget is exhausted, an upstream fact or tool fails, or unavailable specialist judgment controls the answer.
+Stop when the premise is broken, the budget is exhausted, repeated rounds add no new evidence, or specialist judgment is missing. The user retains decision authority; Council review does not authorize code changes, external actions, deployment, purchases, or other restricted operations.
 
 ## Provenance
 
-This is an original, vendor-neutral implementation inspired by Andrej Karpathy's LLM Council concept and Ole Lehmann's Claude Council adaptation. It does not imply endorsement by either creator.
-
+Portable implementation informed by the AI Council concepts described by Andrej Karpathy and Ole Lehmann; no endorsement implied.

@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.6.1 - 2026-11-11
+
+- Repaired a broken session workflow reference and made the Claude Code efficiency skill work without a sibling governance installation.
+- Named one canonical Council playbook and reduced duplicated material in the standalone Council protocol, retaining a portable fallback.
+- Clarified when a full feasibility card is necessary, corrected pronouns/wording and annotated historical manifest fields.
+- Added a no-secret, read-only pull-request documentation checker for relative links and skill frontmatter, plus fixture tests; session-choice cases remain a manual evaluation rubric.
+- Improved contribution instructions for PR-based changes and updated the version manifest.
+- [AGENT: ChatGPT] Owner-approved focused cleanup; preserve established governance and release safeguards.
+
 ## 1.6.0 - 2026-11-11
 
 - Added a proactive, evidence-calibrated CONTINUE / COMPACT / NEW SESSION recommendation when authoring coding-agent prompts and handoffs.

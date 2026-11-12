@@ -1,6 +1,6 @@
 {
   "bundle_schema": 1,
-  "standards_version": "1.6.0",
+  "standards_version": "1.6.1",
   "source_repository": ".",
   "source_revision": "98b6475e8913b7918f3a472459d4fa2253027f77",
   "source_revision_note": "Historical seed revision imported from the former private standards repository; current canonical source is this public repository.",
@@ -18,8 +18,11 @@
     "Added routed security, product, and release checklists",
     "Adopted the public repository as the canonical source after deletion of the former private source",
     "Clarified transparent pricing and working marketing opt-out checks in standards 1.5.1",
-    "Added source-backed Claude Code session-choice and proactive prompt-advice guidance; validated session regression scenarios"
+    "Added source-backed Claude Code session-choice and proactive prompt-advice guidance; validated session regression scenarios",
+    "Maintenance 1.6.1: portable skills, canonical Council, fixed links, docs checks and scoped feasibility."
   ],
   "canonical_source_is_private": false,
-  "updated_at": "2026-11-11"
+  "updated_at": "2026-11-11",
+  "generated_at_note": "Date of historical initial public snapshot, not latest build or today's update.",
+  "included_source_files_note": "Count in historical imported seed snapshot, not current repository file count."
 }
