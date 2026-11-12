@@ -1,0 +1,23 @@
+name: Standards documentation integrity
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    name: links-and-skills
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout (no persistent credentials)
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Check local documentation links and skill frontmatter
+        run: python3 tools/check_docs.py --root .
+      - name: Run checker regression fixtures
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
