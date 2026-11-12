@@ -26,3 +26,16 @@ Follow the vendor-neutral [Efficient Agent Workflow](../../governance/ai-agent-s
 - Continue the same chat for active related work. Use /compact with a handoff when continuing but reducing irrelevant history; use /clear for a distinct task after saving a verified handoff.
 - Prefer concise tool output and preserved full logs. Never skip required source reading or tests merely to reduce usage.
 - Check current [Claude Code best practices](https://code.claude.com/docs/en/best-practices), [commands](https://code.claude.com/docs/en/commands), and [extension/context guide](https://code.claude.com/docs/en/features-overview) because commands, account features, and pricing can change.
+
+
+## Proactive session recommendation for prompt authors
+
+When asked to write a prompt, continuation instruction, or handoff for a coding agent, include a **one-line recommendation** in the surrounding response: **CONTINUE**, **COMPACT**, or **NEW SESSION**, plus a specific reason. Do this without waiting for the user to ask which choice is best. Follow the rubric in the [Efficient Agent Workflow](../../governance/ai-agent-standards/playbooks/efficient-agent-workflow.md#choosing-continue-compact-or-fresh-session).
+
+- Same work package, helpful live context: CONTINUE.
+- Same work package, irrelevant context crowding current work: COMPACT while preserving the verified task state.
+- New substantial work package, scope change, or unrelated project: NEW SESSION with concise repository-backed handoff.
+- Active agents mid-work: do not interrupt them just to reduce context; make the change at a safe checkpoint.
+- For uncertain context, label the advice provisional. New chats do not reset plan limits.
+
+Use measured task throughput and evidence quality—not raw commits, line count, or number of sessions—to evaluate efficiency. Avoid blanket model mandates: a more capable model can reduce retries, while lightweight models can be economical for bounded mechanical work; measure the actual outcome.
