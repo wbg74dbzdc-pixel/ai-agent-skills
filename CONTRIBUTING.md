@@ -15,5 +15,5 @@ Every skill requires `skills/<skill-name>/SKILL.md` with YAML frontmatter contai
 - New or changed scripts were run safely; `SKILL.md` frontmatter and internal links were validated.
 - Material behavior changes include a regression case or evaluation note.
 
-Use pull requests for contributions. Explain the use case, boundaries, evidence or provenance, validation performed, and any known limitations.
+Use pull requests for changes to standards and skills when practical; do not silently push policy edits directly to the default branch. Run `python3 tools/check_docs.py` and `python3 -m unittest discover -s tests -p 'test_*.py'` before merging, and inspect any CI failures. Explain the use case, boundaries, evidence or provenance, validation performed, and any known limitations.
 
