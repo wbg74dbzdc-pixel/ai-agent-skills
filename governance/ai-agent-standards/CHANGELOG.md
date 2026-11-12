@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.6.0 - 2026-11-11
+
+- Added a proactive, evidence-calibrated CONTINUE / COMPACT / NEW SESSION recommendation when authoring coding-agent prompts and handoffs.
+- Clarified when to preserve an active work session, when to compact, and how to start new work packages from verified repository-backed handoffs rather than chat transcripts.
+- Recorded vendor-backed Claude Code context, caching, output, model/effort, and subagent tradeoffs; distinguished vendor documentation from operational recommendations.
+- Added session-choice evaluation cases; retained existing verification, authority, privacy, and cost controls. No running agent or project repository was modified.
+- [AGENT: ChatGPT] Owner-requested guidance improvement; public standards source and references verified 2026-11-11.
+
 ## 1.5.1 - 2026-11-01
 
 - Clarified existing release safeguards with explicit no-hidden-fees and working marketing unsubscribe/opt-out checks, including vendor suppression and end-to-end evidence.
